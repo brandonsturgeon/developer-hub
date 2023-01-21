@@ -53,7 +53,7 @@ const FeaturedList: CardItem[] = [
     type: [docType.Documentation],
     time: '15 min',
     link: '/tutorials/build-code/ci-tutorial-go-containers',
-  },{
+  }, {
     title: 'Sign application containers using a CI Pipeline',
 
     module: 'ci',
@@ -175,66 +175,80 @@ const CIList: CardItem[] = [
     time: "5 min",
     link: "/tutorials/build-code/fastest-ci",
   },
-{
-  title: 'Build Go application containers',
+  {
+    title: 'Build Go application containers',
 
-  module: 'ci',
-  icon: "img/icon_ci.svg",
-  description: (
-    <>
-      This build automation guide describes building a Go container image in a CI Pipeline.
+    module: 'ci',
+    icon: "img/icon_ci.svg",
+    description: (
+      <>
+        This build automation guide describes building a Go container image in a CI Pipeline.
 
-    </>
-  ),
-  newDoc: true,
-  type: [docType.Documentation],
-  time: '15 min',
-  link: '/tutorials/build-code/ci-tutorial-go-containers',
-},{
-  title: 'Sign Application Containers',
-  module: 'ci',
-  icon: "img/icon_ci.svg",
-  description: (
-    <>
-      This build automation guide describes how to sign a container image using a CI pipeline.
+      </>
+    ),
+    newDoc: true,
+    type: [docType.Documentation],
+    time: '15 min',
+    link: '/tutorials/build-code/ci-tutorial-go-containers',
+  }, {
+    title: 'Sign Application Containers',
+    module: 'ci',
+    icon: "img/icon_ci.svg",
+    description: (
+      <>
+        This build automation guide describes how to sign a container image using a CI pipeline.
 
-    </>
-  ),
-  newDoc: true,
-  type: [docType.Documentation],
-  time: '15 min',
-  link: '/tutorials/build-code/ci-tutorial-container-signing',
-},{
-  title: "Build, test, and publish a Docker image for a sample React application",
-  module: "ci",
-  icon: "img/icon_ci.svg",
-  description: (
-    <>
-      Learn how to build and test a sample React application in a CI pipeline.
-  
-    </>
-  ),
-  newDoc: true,
-  type: [docType.Documentation],
-  time: "20 min",
-  link: "/tutorials/build-code/ci-react-quickstart",
-},{
-  title: "Github Action steps",
-  module: "ci",
-  icon: "img/icon_ci.svg",
-  description: (
-    <>
+      </>
+    ),
+    newDoc: true,
+    type: [docType.Documentation],
+    time: '15 min',
+    link: '/tutorials/build-code/ci-tutorial-container-signing',
+  }, {
+    title: "Build, test, and publish a Docker image for a sample React application",
+    module: "ci",
+    icon: "img/icon_ci.svg",
+    description: (
+      <>
+        Learn how to build and test a sample React application in a CI pipeline.
 
-     This guide shows how to run GitHub Actions natively with harness CI.
+      </>
+    ),
+    newDoc: true,
+    type: [docType.Documentation],
+    time: "20 min",
+    link: "/tutorials/build-code/ci-react-quickstart",
+  }, {
+    title: "Github Action steps",
+    module: "ci",
+    icon: "img/icon_ci.svg",
+    description: (
+      <>
 
-    </>
-  ),
-  newDoc: true,
-  type: [docType.Documentation],
+        This guide shows how to run GitHub Actions natively with harness CI.
 
-  time: "10 min",
-  link: "/tutorials/build-code/ci-github-action-step",
-}
+      </>
+    ),
+    newDoc: true,
+    type: [docType.Documentation],
+
+    time: "10 min",
+    link: "/tutorials/build-code/ci-github-action-step",
+  },
+  {
+    title: "Publish allure report",
+    module: "ci",
+    icon: "img/icon_ci.svg",
+    description: (
+      <>
+        This guide shows how to publish allure report as an artifact in harness CI.
+      </>
+    ),
+    newDoc: true,
+    type: [docType.Documentation],
+    time: "10 min",
+    link: "/tutorials/build-code/ci-publish-allure-report",
+  },
 ];
 
 export default function CI() {
